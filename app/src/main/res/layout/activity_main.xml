@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00f0f0"
+    android:id="@+id/root_layout"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_show_mouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示鼠标指针" />
+
+    <Button
+        android:id="@+id/button_hide_mouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐藏鼠标指针" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_height="wrap_content"
+        android:text="Mouse Coordinates" />
+</LinearLayout>
